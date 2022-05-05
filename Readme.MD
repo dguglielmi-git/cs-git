@@ -1,5 +1,6 @@
 # Git Commands
 
+![GitLogo](Git-Logo-2Color.eps)
 ## Index
 | Topic | Commands |
 |---------|---------|

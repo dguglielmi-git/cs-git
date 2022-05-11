@@ -9,6 +9,7 @@
 | [Remotes & Pushing](#remotes-and-pushing) | Pusing local branches to remote repositories |
 | [Remotes & Pulling](#remotes-and-pulling) | Updating our local branches from remote repositories |
 | [Versioning](#versioning) | How to manage tags and versioning our projects |
+| [Changelog](#changelog) | CHANGELOG Definitions |
 
 
 
@@ -284,4 +285,22 @@ Version   v1.0.0
 | Patch |`Z`|Backwards compatible bug fixes are introduced.|
 | Minor |`Y`|Backwards compatible functionality is introduced, any functionality is marked as deprecated. Substantial new functionality or improvements|
 | Major |`X`|Any backwards incompatible changes are introduced. Patch and Minor must be reset to 0 when major is incremented.|
+
+
+
+## Changelog
+
+| Type | Description|
+|------|------------|
+|feature|     A new feature.|
+|fixes|       A bug fix.|
+|docs|        Documentation only changes.|
+|style|       Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc).|
+|refactor|    A code change that neither fixes a buf nor adds a feature.|
+|test     |   Adding missing tests or correcting existing ones.   |
+|chore    |   Changes to the build process or auxiliary tools and libraries such as documentation generation.|
+|perf     |   A code change that improves performance.|
+|ci       |   Changes to your CI configuration files and scripts.|
+|build    |   Changes that affects the build system or external dependencies (example scopes: gulp, broccoli, npm)|
+|temp     |   Temporary commit that won't be included in your CHANGELOG.|
 

@@ -1,6 +1,6 @@
 # Git Commands
 
-## Index
+## Table of Content
 | Topic | Commands |
 |---------|---------|
 | [Basic Git commands](#basic-git-commands)| init; clone; commit; config; log; |

@@ -293,13 +293,13 @@ Fast example about how to create a tag and push it to the server.
 
 ### Versions types
 
-| Version type      | Description                                                                              |
-|-------------------|------------------------------------------------------------------------------------------|
-| v1.0.0-pre-alpha  | Requirements analysis, software design, software development, unit testing.              |
-| v1.0.0-alpha      | Software testing; may not contain all of the features planned for final version.         |
-| v1.0.0-beta       | Feature complete with likely known/unknown bugs. Useful for demonstrations and previews. |
-| v1.0.0-rc         | (Release Candidate) - All product features have been designed, coded and tested.         |
-| v1.0.0-stable     | Last 'rc' which has passed all verification/tests.                                       |
+| Version type        | Description                                                                              |
+|---------------------|------------------------------------------------------------------------------------------|
+| `v1.0.0-pre-alpha`  | Requirements analysis, software design, software development, unit testing.              |
+| `v1.0.0-alpha`      | Software testing; may not contain all of the features planned for final version.         |
+| `v1.0.0-beta`       | Feature complete with likely known/unknown bugs. Useful for demonstrations and previews. |
+| `v1.0.0-rc`         | (Release Candidate) - All product features have been designed, coded and tested.         |
+| `v1.0.0-stable`     | Last 'rc' which has passed all verification/tests.                                       |
 
 
 ### Version Number Updating

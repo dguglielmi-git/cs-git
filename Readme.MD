@@ -350,15 +350,15 @@ Version   v1.0.0
 #### Install Commit Msg Linter
             
 ```sh
-# npm install git-commit-msg-linter --save-dev
+> npm install git-commit-msg-linter --save-dev
 ```
 
 #### Example of commit with comment
 
 ```sh
-# git commit -m"chore: add typescript"
+> git commit -m"chore: add typescript"
 
-# git commit -m"feat: added a new feature that will allow the system to do something really cool"
+> git commit -m"feat: added a new feature that will allow the system to do something really cool"
 ```
 </details>
 </div>

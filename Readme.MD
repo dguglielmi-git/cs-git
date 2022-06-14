@@ -346,6 +346,20 @@ Version   v1.0.0
 | build    |build          | Changes that affects the build system or external dependencies (example scopes: gulp, broccoli, npm)   |
 | temp     |temp           | Temporary commit that won't be included in your CHANGELOG.                                             |
 
+
+#### Install Commit Msg Linter
+            
+```sh
+# npm install git-commit-msg-linter --save-dev
+```
+
+#### Example of commit with comment
+
+```sh
+# git commit -m"chore: add typescript"
+
+# git commit -m"feat: added a new feature that will allow the system to do something really cool"
+```
 </details>
 </div>
 

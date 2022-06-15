@@ -1,4 +1,4 @@
-# Git Commands
+# CheatSheet - Git Commands
 
 ## Table of Content
 | Topic                                      | Commands                                             |

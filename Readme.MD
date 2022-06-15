@@ -281,16 +281,6 @@ Get files into your remote tracking branches.
 <details>
 <summary>Expand...</summary>
 
-
-Fast example about how to create a tag and push it to the server.
-
-```sh
-> git tag -a -m "Comment about the Tag" v1.0.0-alpha
-
-> git push origin v1.0.0-alpha
-```
-
-
 ### Versions types
 
 | Version type        | Description                                                                              |
@@ -316,6 +306,15 @@ Version   v1.0.0
 | Patch        |`Z` |Backwards compatible bug fixes are introduced.                                                                              |
 | Minor        |`Y` |Backwards compatible functionality is introduced, any functionality is marked as deprecated. Substantial new functionality or improvements                                                                                                                                     |
 | Major        |`X` |Any backwards incompatible changes are introduced. Patch and Minor must be reset to 0 when major is incremented.            |
+
+
+Fast example about how to create a tag and push it to the server.
+
+```sh
+> git tag -a -m "Comment about the Tag" v1.0.0-alpha
+
+> git push origin v1.0.0-alpha
+```
 
 </details>
 </div>

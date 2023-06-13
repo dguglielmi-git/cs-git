@@ -1,15 +1,16 @@
 # CheatSheet - Git Commands
 
 ## Table of Content
-| Topic                                      | Commands                                             |
-|--------------------------------------------|------------------------------------------------------|
-| [Basic Git commands](#basic-git-commands)  | init; clone; commit; config; log;                    |
-| [Branching](#branching)                    | branch; status; checkout; branch -dbm;               |
-| [Merging](#merging)                        | checkout; merge; mergetool;                          |
-| [Remotes & Pushing](#remotes-and-pushing)  | Pusing local branches to remote repositories         |
-| [Remotes & Pulling](#remotes-and-pulling)  | Updating our local branches from remote repositories |
-| [Versioning](#versioning)                  | How to manage tags and versioning our projects       |
-| [Changelog](#changelog)                    | CHANGELOG Definitions                                |
+| Topic                                                     | Commands                                             |
+|-----------------------------------------------------------|------------------------------------------------------|
+| [Basic Git commands](#basic-git-commands)                 | init; clone; commit; config; log;                    |
+| [Branching](#branching)                                   | branch; status; checkout; branch -dbm;               |
+| [Merging](#merging)                                       | checkout; merge; mergetool;                          |
+| [Remotes & Pushing](#remotes-and-pushing)                 | Pusing local branches to remote repositories         |
+| [Remotes & Pulling](#remotes-and-pulling)                 | Updating our local branches from remote repositories |
+| [Versioning](#versioning)                                 | How to manage tags and versioning our projects       |
+| [Changelog](#changelog)                                   | CHANGELOG Definitions                                |
+| [Summary of Common commands](#summary-of-common-commands) | List and Examples of the more common commands        |
 
 
 
@@ -361,4 +362,60 @@ Fast example about how to create a tag and push it to the server.
 ```
 </details>
 </div>
+
+## Summary of Common commands
+         
+`git init:` Initialize a new Git repository in a local directory.
+Example: git init (initialize a new Git repository in the current directory)
+git clone: Clone a remote repository into a local directory.
+            
+Example: 
+```sh
+  git clone https://github.com/user/repo.git (clone the remote repository into a local directory)
+```
+git add: Add changes or files to the staging area to be included in the next commit.
+
+Example: git add file.txt (add the file "file.txt" to the staging area)
+git commit: Create a new commit with the changes added to the staging area.
+
+Example: git commit -m "Add new features" (create a new commit with a descriptive message)
+git status: Show the current status of the repository, including modified, added, or deleted files.
+
+Example: git status (show the current status of the repository)
+git diff: Show the differences between the changes made and the last commit.
+
+Example: git diff (show the differences between the current changes and the last commit)
+git pull: Fetch and merge the latest changes from a remote repository into your local branch.
+
+Example: git pull origin master (fetch and merge the changes from the "master" branch of the remote repository)
+git push: Send the local commits to a remote repository.
+
+Example: git push origin master (send the local commits to the "master" branch of the remote repository)
+git branch: List available branches and create new branches.
+
+Example: git branch (list available branches)
+Example: git branch new-branch (create a new branch called "new-branch")
+git checkout: Switch between branches or restore files to a previous version.
+
+Example: git checkout new-branch (switch to the "new-branch" branch)
+Example: git checkout HEAD~1 file.txt (restore the "file.txt" to a previous version)
+git merge: Merge changes from one branch to another.
+
+Example: git merge another-branch (merge the changes from "another-branch" to the current branch)
+git remote: Manage connections to remote repositories.
+
+Example: git remote add origin https://github.com/user/repo.git (add a new remote repository named "origin")
+git log: Show the commit history.
+
+Example: git log (show the commit history)
+git reset: Undo changes or move commits.
+
+Example: git reset HEAD~1 (undo the last commit but keep the changes in the staging area)
+git stash: Temporarily save changes in a storage area.
+            git rebase: Reapply commits from one branch to another, incorporating changes from the source branch into the target branch.
+
+Example: git rebase branch-name (reapply commits from "branch-name" onto the current branch)
+git cherry-pick: Apply a specific commit from one branch to another branch.
+
+Example: git cherry-pick commit-hash (apply the commit with the specified hash to the current branch)
 
